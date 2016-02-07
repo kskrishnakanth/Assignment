@@ -11,7 +11,7 @@ void copy(char * dest,char* src) // function to copy strings
 }
 int main()
 {
-		char str[120];
+		char str[100];
 		int i,j,flag=0,k=1,l1=1,l2=0,l3=0;
 		char *c,*d,*e;
 		scanf("%s",str);
