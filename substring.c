@@ -50,7 +50,12 @@ int main()
 			c[1]='\0';
 			k=1;
 		}
-	} 
+	}
+	if(flag==0) // given string is unique
+	{
+		copy(e,c); 
+		l3=l1;
+	}
 	printf("Longest substring : %s, length : %d\n",e,l3);
 	return 0;
 }
