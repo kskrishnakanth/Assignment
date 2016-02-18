@@ -41,12 +41,12 @@ char * nextpal(char *c,int l,long long int val1)
 	val2 = calval(c);
 	if(l%2==0) // if the number entered has even no of digits
 	{
-		//4-1,4-2, 6-2,6-3, 8-3,8-4
-		//length of number -> meanpos-1,meanpos to modify
+	//4-1,4-2, 6-2,6-3, 8-3,8-4
+	//length of number -> meanpos-1,meanpos to modify
 	diff = l/2; // mean positions to increment
 	while(val2<=val1)
 	{
-		c[diff] =  	c[diff]+1;
+		c[diff]   = c[diff]+1;
 		c[diff-1] = c[diff]; // even length number will have two  mean digits
 		if(c[diff]>9+48) // if mean pos number becomes greater than 9 set the value as  digit to lowest length+1 number
 		{
@@ -72,8 +72,8 @@ char * nextpal(char *c,int l,long long int val1)
 	}
 	else
 	{
-	  //3->1 5-2, 7-3,9-4,11->5  
-	  //length of string ->position to modify
+	//3->1 5-2, 7-3,9-4,11->5  
+	 //length of string ->position to modify
 	  	diff = (int)l/2;
 	  	while(val2<=val1)
 	  	{
