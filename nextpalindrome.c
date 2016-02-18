@@ -6,9 +6,9 @@ Program to print the nearest palindrome number from 1 to 1000000000
 
 PseudoCode
 1. Get the input as string
-2. place the first character of input to the last
+2. rotate the digits of the number other than mean position
 3. if number entered is greater than the entered one next palindrome is generated
-4. else increment the mean elements by one to form the mirror image.
+4. else increment the mean elements and rotated.
 5. if mean elements > 9 then val is set  the value  to the smallest length+1 no and steps 1 to 4 are repeated
 
 
