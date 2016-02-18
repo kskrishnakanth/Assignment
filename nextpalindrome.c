@@ -18,7 +18,7 @@ PseudoCode
 long long int calval(char * c) // it returns the integer value of the string entered
 {
 	long long  int val1=0,i;
-		for(i=0;c[i]!='\0';i++)
+	for(i=0;c[i]!='\0';i++)
 	{
 		val1 = val1*10+(c[i]-48);
 		
