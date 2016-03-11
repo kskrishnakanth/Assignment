@@ -1,0 +1,16 @@
+struct contact_person
+{
+    char id[6];
+    char first_name[30];
+    char last_name[30];
+    char email[40];
+};
+struct contact_info
+{
+    struct person contact_persons[2];
+    char contact_id[6];
+    char contact_name[30];
+    char street[45];
+    char area[30];
+    char city[30];
+}contact[2];
