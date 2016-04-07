@@ -209,6 +209,6 @@ int main()
 	}
 	printf("7.No.of Words Occured once : %d\n",occured_once());
 	p=head;
-    fclose(fp);
+       fclose(fp);
     return 0;
 }
