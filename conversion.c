@@ -19,7 +19,7 @@ int main()
 	printf("\nThe converted number is  : ");
 	while(j>=0)
 	{
-		if(num[j]<10)
+		if(num[j]>10)
 		{
 			printf("%d",num[j]);
 		}
